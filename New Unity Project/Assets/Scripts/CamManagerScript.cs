@@ -5,6 +5,15 @@ using UnityEngine.UI;
 
 public class CamManagerScript : MonoBehaviour
 {
+
+    public GameObject mainCamera;
+    public GameObject picInPicture;
+    public GameObject sideViewCam;
+    public GameObject upperSplitScreen;
+    public GameObject lowerSplitScreen;
+
+
+
     // Start is called before the first frame update
     void Start()
     {
