@@ -60,6 +60,9 @@ public class CamManagerScript : MonoBehaviour
 
         switch (change.value)
         {
+
+            //Example
+
             case 0:
                 mainCamera.enabled = true;
                 pictureInPictureCam.enabled = false;
