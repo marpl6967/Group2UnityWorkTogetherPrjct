@@ -58,6 +58,20 @@ public class CamManagerScript : MonoBehaviour
             change.value);
         // Code will go here
 
+        switch (change.value)
+        {
+            case 0:
+                mainCamera.enabled = true;
+                pictureInPictureCam.enabled = false;
+                SideViewCamera.enabled = false;
+                SplitScreenUpper.enabled = false;
+                SplitScreenLower.enabled = false;
+                    
+                break;
+            case 1:
+                mainCamera.enabled = false;
+                break;
+        }
 
     }
 }
