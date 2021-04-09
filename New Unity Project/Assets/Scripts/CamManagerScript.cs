@@ -66,10 +66,33 @@ public class CamManagerScript : MonoBehaviour
                 SideViewCamera.enabled = false;
                 SplitScreenUpper.enabled = false;
                 SplitScreenLower.enabled = false;
-                    
+
                 break;
+            // Show Camera 2 view only
             case 1:
                 mainCamera.enabled = false;
+                pictureInPictureCam.enabled = false;
+                SideViewCamera.enabled = true;
+                SplitScreenUpper.enabled = false;
+                SplitScreenLower.enabled = false;
+
+                break;
+            // Show Picture In Picture
+            // With main camera enabled
+            case 2:
+                mainCamera.enabled = true;
+                pictureInPictureCam.enabled = true;
+                SideViewCamera.enabled = false;
+                SplitScreenUpper.enabled = false;
+                SplitScreenLower.enabled = false;
+                break;
+            // Show Split Screen
+            case 3:
+                mainCamera.enabled = false;
+                pictureInPictureCam.enabled = false;
+                SideViewCamera.enabled = false;
+                SplitScreenUpper.enabled = true;
+                SplitScreenLower.enabled = true;
                 break;
         }
 
