@@ -62,6 +62,7 @@ public class CamManagerScript : MonoBehaviour
         {
 
             //Example
+            //Second Example
 
             case 0:
                 mainCamera.enabled = true;
