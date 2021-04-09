@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class CamManagerScript : MonoBehaviour
 {
 
-    public Camera mainCamera;
+    public Camera mainCamera2;
     public Camera pictureInPictureCam;
     public Camera SideViewCamera;
     public Camera SplitScreenUpper;
